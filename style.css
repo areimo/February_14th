@@ -1,0 +1,86 @@
+.body{
+    margin: auto;
+    padding: auto;
+}
+
+.footer{
+    margin: auto;
+    padding: auto;
+}
+
+#button_x{
+    margin: 5px 0px 0px 5px;
+    font-family: "Signika Negative", serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #ffe3e0;
+    border-color: #EF6351;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    color: #EF6351;
+    cursor: pointer;
+}
+
+#button_x:hover{
+    background-color: #F7A399;
+    color: #ffe3e0;
+}
+
+#heart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    filter: drop-shadow(5px 5px 10px #000000);
+}
+
+.love_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#first_text{
+    font-family: "Signika Negative", serif;
+    font-optical-sizing: auto;
+    font-size: larger;
+    font-weight: bold;
+    padding: 4px 28px;
+    margin-bottom: 20px;
+    background-color: #ffe3e0;
+    border-color: #EF6351;
+    border-radius: 50px;
+    border-style: solid;
+    color: #EF6351;
+}
+
+#second_text{
+    font-family: "Signika Negative", serif;
+    font-optical-sizing: auto;
+    font-size: medium;
+    font-weight: bold;
+    padding: 4px 28px;
+    margin-bottom: 30px;
+    background-color: #ffe3e0;
+    border-color: #EF6351;
+    border-radius: 50px;
+    border-style: solid;
+    color: #EF6351;
+}
+
+#last_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    bottom: 0%;
+    font-family: "Signika Negative", serif;
+    font-optical-sizing: auto;
+    font-size: smaller;
+    font-weight: light;
+    color: white;
+}
+    
